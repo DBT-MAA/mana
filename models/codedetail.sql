@@ -1,3 +1,5 @@
 with code as
-(select * from {{ref('countrycodedetail')}})
+(
+    select * from {{ref('countrycodedail')}}
+)
 select * from code
