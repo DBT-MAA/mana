@@ -1,0 +1,1 @@
+select TOP 5 * from DBT_DB1.DEV.call_center1
